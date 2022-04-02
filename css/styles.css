@@ -71,8 +71,12 @@ body {
 .header-contact-link:focus {
   color: var(--accent-color);
 }
+.active-link {
+  color: var(--accent-color);
+}
 /*-------/HEADER-------*/
 /*-------HERO-------*/
+
 .main-title {
   font-weight: 900;
   font-size: 44px;
@@ -97,7 +101,9 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
 }
-
+.hero {
+  background-color: #2F303A;
+}
 /*-------/HERO-------*/
 /*-------FEATURES-------*/
 .features-title {
@@ -131,6 +137,12 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color-theme-light);
 }
+.about{
+  background-color: #F5F4FA;;
+}
+.about-item{
+  background-color: var(--main-text-color-theme-dark);
+}
 /*-------/ABOUT-------*/
 /*-------FOOTER-------*/
 .address-link {
@@ -146,6 +158,12 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color-theme-dark);
+}
+.logo-footer{
+  color: var(--main-text-color-theme-dark);
+}
+.footer {
+  background-color: #2F303A;
 }
 /*-------/FOOTER-------*/
 /*-------PORTFOLIO-------*/
